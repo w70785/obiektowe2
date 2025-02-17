@@ -1,0 +1,4 @@
+1;Jan Kowalski
+2;Anna Nowak
+3;Barbara Nowak
+4;Katarzyna Piotrkowska

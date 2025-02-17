@@ -1,0 +1,14 @@
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\Programowanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\Programowanie.AssemblyInfoInputs.cache
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\Programowanie.AssemblyInfo.cs
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\Programowanie.csproj.CoreCompileInputs.cache
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\bin\Debug\net8.0\Programowanie.exe
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\bin\Debug\net8.0\Programowanie.deps.json
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\bin\Debug\net8.0\Programowanie.runtimeconfig.json
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\bin\Debug\net8.0\Programowanie.dll
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\bin\Debug\net8.0\Programowanie.pdb
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\Programowanie.dll
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\refint\Programowanie.dll
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\Programowanie.pdb
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\Programowanie.genruntimeconfig.cache
+C:\Users\Jakub Hadław\Desktop\Projekt2\Programowanie\Programowanie\obj\Debug\net8.0\ref\Programowanie.dll
