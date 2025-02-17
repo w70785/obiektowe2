@@ -1,0 +1,31 @@
+\chapter{Opis założeń projektu}
+\section{Cele projektu}
+\noindent Celem projektu jest stworzenie aplikacji, która umożliwia:
+\begin{itemize}
+    \item Rejestrowanie godzin rozpoczęcia i zakończenia pracy pracowników w sposób czytelny i zorganizowany,
+    \item Przechowywanie danych w plikach tekstowych, co zapewnia prostotę oraz niezależność od zewnętrznych systemów bazodanowych,
+    \item Automatyczne generowanie raportów godzinowych dla każdego pracownika, co ułatwia analizę jego aktywności w pracy,
+    \item Możliwość łatwej edycji i podglądu zgromadzonych danych przez osoby uprawnione,
+    \item Eliminację błędów wynikających z manualnego zapisywania godzin pracy,
+    \item Zwiększenie przejrzystości i kontroli nad czasem pracy, co pozwala pracodawcom na efektywne zarządzanie zasobami ludzkimi,
+    \item Umożliwienie ewentualnej rozbudowy systemu o dodatkowe funkcjonalności, takie jak integracja z systemami płacowymi czy powiadomienia dla pracowników.
+\end{itemize}
+
+\section{Zakres funkcjonalny systemu}
+\noindent System ewidencji godzinowej pracowników będzie składał się z kilku kluczowych modułów, które zapewnią jego poprawne działanie:
+\begin{itemize}
+    \item Moduł rejestracji czasu pracy – umożliwia użytkownikowi zapisanie godziny rozpoczęcia oraz zakończenia pracy,
+    \item Moduł przechowywania danych – wykorzystuje pliki tekstowe do trwałego zapisu wprowadzonych danych,
+    \item Moduł przetwarzania danych – odpowiedzialny za analizowanie zgromadzonych informacji, obliczanie przepracowanego czasu oraz nadgodzin,
+    \item Moduł interakcji użytkownika – umożliwia pracownikom oraz administratorom dostęp do danych w przyjazny sposób.
+\end{itemize}
+
+\section{Ograniczenia i założenia projektowe}
+\noindent System został zaprojektowany z uwzględnieniem następujących ograniczeń:
+\begin{itemize}
+    \item Dane przechowywane są lokalnie w plikach tekstowych, co oznacza brak możliwości dostępu do nich z poziomu aplikacji internetowych lub zdalnych serwerów,
+    \item Aplikacja działa w trybie wiersza poleceń (CLI), co sprawia, że jej użytkowanie wymaga podstawowej znajomości obsługi komputera,
+    \item Brak możliwości jednoczesnej edycji danych przez wielu użytkowników – system nie obsługuje transakcji wielodostępnych,
+    \item Program nie obsługuje automatycznej synchronizacji danych z systemami zewnętrznymi, jednak może być rozszerzony o taką funkcjonalność w przyszłości,
+    \item System przeznaczony jest głównie dla małych i średnich przedsiębiorstw, gdzie liczba pracowników nie przekracza kilkuset osób.
+\end{itemize}

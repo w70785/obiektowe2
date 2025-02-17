@@ -1,0 +1,44 @@
+% **** Szablon pracy magisterskiej, licencjackiej lub inżynierskiej ****
+
+\documentclass[polish,12pt,twoside,a4paper]{report}
+
+\input{style.tex}
+
+%definicja przydatnych poleceń
+\newcommand{\wydzial}{KOLEGIUM INFORMATYKI STOSOWANEJ}
+\newcommand{\kierunek}{Kierunek: INFORMATYKA}
+\newcommand{\autor}{Jakub Hadław}
+\newcommand{\album}{Nr albumu studenta w70785}
+\newcommand{\temat}{System ewidencji godzinowej pracowników}
+\newcommand{\promotor}{mgr inż. Ewa Żesławska}
+\newcommand{\typpracy}{Praca projektowa programowanie obiekotwe C\#}
+\newcommand{\miasto}{Rzeszów}
+\newcommand{\rok}{2025}
+
+\begin{document}
+
+% *************** Włączenie definicji pierwszych stron ***************
+\input{front.tex}
+
+
+% *************** Część główna pracy ***************
+\input{wstep.tex}
+\addcontentsline{toc}{chapter}{Wstęp}
+\newpage
+\input{R1.tex}
+\newpage
+\input{R2.tex}
+\newpage
+\input{R3.tex}
+\newpage
+\input{R4.tex}
+\newpage
+\input{R5.tex}
+\newpage
+
+
+% *************** Zakończenie ***************
+\input{back.tex}
+
+\end{document}
+% *************** Koniec pliku szablon.tex ***************

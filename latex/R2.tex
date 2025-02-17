@@ -1,0 +1,45 @@
+\chapter{Opis struktury projektu}
+System został zaimplementowany w języku \textbf{C\#} z wykorzystaniem plików tekstowych do przechowywania danych. Taka metoda zapewnia prostotę oraz brak konieczności stosowania zewnętrznych baz danych.
+
+\section{Narzędzia i technologie}
+\noindent W projekcie wykorzystano:
+\begin{itemize}
+    \item \textbf{C\#} - język programowania,
+    \item \textbf{.NET Core} - platforma do budowy aplikacji,
+    \item \textbf{Visual Studio Code} - środowisko programistyczne,
+    \item \textbf{GitHub} - system kontroli wersji,
+    \item \textbf{Pliki tekstowe (.txt)} - format przechowywania danych o czasie pracy.
+\end{itemize}
+
+\section{Minimalne wymagania sprzętowe}
+\noindent Aplikacja wymaga następujących zasobów:
+\begin{itemize}
+    \item Procesor: 1 GHz lub szybszy,
+    \item Pamięć RAM: 512 MB,
+    \item Wolne miejsce na dysku: 50 MB,
+    \item System operacyjny: Windows, Linux lub macOS.
+\end{itemize}
+
+\section{Zarządzanie danymi i plikami tekstowymi}
+\noindent System wykorzystuje pliki tekstowe do przechowywania:
+\begin{itemize}
+    \item Listy pracowników wraz z ich identyfikatorami,
+    \item Godzin rozpoczęcia i zakończenia pracy,
+    \item Informacji o nadgodzinach,
+    \item Raportów generowanych na podstawie zgromadzonych danych.
+\end{itemize}
+Każdy pracownik posiada oddzielny plik tekstowy zawierający historię jego czasu pracy, co umożliwia łatwy dostęp i edycję danych.
+
+\section{Hierarchia klas i opis metod}
+\noindent Struktura aplikacji obejmuje następujące klasy:
+\begin{itemize}
+    \item \textbf{Pracownik} - przechowuje dane o pracowniku (ID, imię, nazwisko, stanowisko),
+    \item \textbf{Ewidencja} - rejestruje godziny pracy pracownika i zapisuje je do plików tekstowych,
+    \item \textbf{PlikDanych} - klasa odpowiedzialna za odczyt i zapis danych w plikach tekstowych.
+\end{itemize}
+
+Najważniejsze metody:
+\begin{itemize}
+    \item \textbf{ZapiszGodzinyPracy(int pracownikId, DateTime start, DateTime koniec)} - zapisuje godziny pracy do pliku tekstowego,
+    \item \textbf{ObliczNadgodziny(int pracownikId)} - oblicza liczbę przepracowanych nadgodzin na podstawie zapisanych danych.
+\end{itemize}
